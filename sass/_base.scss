@@ -11,8 +11,8 @@ $color-grey-dark-1: #54483a;
 $color-grey-dark-2: #6d5d4b;
 
 // FONT VARIABLES
-$font-primary: "Nunito", sans-serif;
-$font-display: "Josefin Sans", sans-serif;
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Josefin Sans', sans-serif;
 
 *,
 *::before,
@@ -42,9 +42,4 @@ body {
     [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end])
     [center-end] minmax(6rem, 1fr)
     [full-end];
-
-  & > * {
-    padding: 30px;
-    font-size: 3rem;
-  }
 }
